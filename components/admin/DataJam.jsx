@@ -43,7 +43,7 @@ const DataJam = ({ data }) => {
                   <Link
                     href={`/admin/updatejamtangan?seri=${jam.seri}
                               &nama=${kue.nama}&warna=${jam.warna}
-                              &harga=${mhs.harga}`}
+                              &harga=${jam.harga}`}
                   >
                     <a>Edit</a>
                   </Link>
